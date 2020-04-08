@@ -9,7 +9,8 @@ we use the 90% split of the data to initialize a 5-fold cross-validation loop ov
 
 We investigate the following range of parameters to also find the best amount of trees (using the “automatic” training mode) in your random forest:
 ```bash
-– impurity <- Array("gini", "entropy"); – depth <- Array(10, 25, 50);
+– impurity <- Array("gini", "entropy"); 
+– depth <- Array(10, 25, 50);
 – bins <- Array(10, 100, 300));
 – numTrees <- Array(5, 10, 20);
 ```
